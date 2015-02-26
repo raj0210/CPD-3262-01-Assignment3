@@ -1,0 +1,23 @@
+html
+{
+ background-color: skyblue;
+}
+
+
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+	text-align: center;
+}
+td
+{
+ background-color: silver;
+}
+th {
+    background-color: grey;
+    color: black
+}

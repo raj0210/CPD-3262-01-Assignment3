@@ -1,0 +1,19 @@
+<!-- <span>{{contactId}}</span> -->
+<br>
+<a  ng-click="doTheBack()">Back</a><br><br>
+
+
+<table border="1" align="center">
+<tr class="head"><th>{{contact.first}} {{contact.last}}</th><th>Email</th><th>Phone Number</th></tr>
+
+
+
+
+ <tr class="table">
+ <td><img   ng-src="{{contact.imageUrl}}"></td>
+<td>Department: {{contact.department}} <br> Office: {{contact.office}}
+<br> Manager: {{contact.manager}} <br> 
+<a href="mailto:{{contact.first+'.'+contact.last+'@lambtoncollege.ca'}}">Email {{contact.first}}</a></td>
+<td>{{'519-542-7751 ext.'+contact.extension}}</td></tr>
+
+</table>
